@@ -1,7 +1,7 @@
 name: First workflow
 on: [push, workflow_dispatch]
 jobs:
-  build:
+  echo-hw:
     runs-on: ubuntu-latest
     steps:
       - name: Run a one-line script
